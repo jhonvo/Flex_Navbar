@@ -1,0 +1,43 @@
+*{
+    text-decoration: none;
+    color:inherit;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(77, 75, 75);
+    font-family: "Roboto", sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 5px;
+    height: 45px;
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+}
+
+.btn{
+    width: 90px;
+    height: 30px;
+    color:white;
+    background-color: rgb(37, 182, 177);
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    font-size: inherit;
+}
+
+.nav-links > li{
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+}
+
+.active{
+    font-weight: bold;
+}
